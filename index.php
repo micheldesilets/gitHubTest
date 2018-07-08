@@ -24,5 +24,5 @@ $isAuthenticated = authenticate($users, 'Luc', 'spniard');
 if ($isAuthenticated) {
   echo 'Welcome, known user!';
 } else {
-  echo 'Not authenticated.';
+  echo 'User not authenticated.';
 }
